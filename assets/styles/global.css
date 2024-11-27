@@ -6,6 +6,7 @@
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 li {
@@ -90,17 +91,19 @@ img {
   height: auto;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 button {
   padding: 0.75rem 1.25rem;
 }
-.btn-primary {
-  background-color: var(--pink-dark);
-  &:hover {
-    background-color: var(--pink-base);
-  }
+
+.flex{
+  display: flex;
 }
+
+.flex-1{
+  flex: 1;
+}
+
+.flex-2{
+  flex: 2;
+}
+
